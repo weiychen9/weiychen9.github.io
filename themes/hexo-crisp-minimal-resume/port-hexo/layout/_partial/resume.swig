@@ -111,6 +111,11 @@
         <div class="block-content">
           {{ project.description }}
         </div>
+        {% for detail in project.details %}
+          <div class="block-content">
+            -- {{ detail }}
+          </div>
+        {% endfor %}
       </div>
       {% endfor %}
     </div>
