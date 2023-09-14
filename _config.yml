@@ -3,7 +3,69 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Résumé
+root: 
+resume:
+  name: Hana Chen
+  profile: A dynamic, high-performing third-year digital infrastructure engineering student with high passion and experience in Architecture, engineering and construction (AEC) industry. A detail-oriented and quick learner with strong analytical and problem-solving skills. With an extensive background in Revit, AutoCAD, ArcGIS and Adobe software, as well as excellent collaborating skills in real life projects.
+  jobtitle: Graduates
+  contact:
+    - icon: fa-envelope
+      text: youremail@example.com
+    - icon: fa-phone-square
+      text: your-phone-num
+    - icon: fa-globe
+      text: your-website.com
+      link: https://crispgm.github.io/resume/resume.html
+    - icon: fa-github
+      text: your-github
+      link: https://github.com/crispgm/resume
+  education:
+    - university: The university of Melbourne
+      duration: 2020 - 2023
+      location: VIC
+      major: Bachelor of Design  digital infrastructure engineering
+    - university: University of New South Wales
+      duration: 2018
+      major: UNSW Foundation Studies
+      location: NSW
+
+  skills:
+    - title: Design
+      items: Revit, AutoCad, Photoshop, Adobe Illustrator, Adobe InDesign, SketchUp
+    - title: Progremming
+      items: C, Python
+    - title: Management
+      items: Engineering risk, Project management, Continous improvement & innovations
+  experience:
+    - title: Art Tutor
+      duration: 2021
+      company: Little Monet education, Zhejiang
+      description: 
+        - Collaborating with the teaching team on designing suitable creative bilingual art classes for student. Participating in class teaching
+    - title: Internship
+      duration: 2020
+      company: The department of urban planning and regional development, Zhejiang
+      description: Engaging with the project site visit and site analysis. Cooperating with professionals from different disciplines and evolving the project management process. Using various software such as ArcGIS, PS, and Autocad to develop strategic plans and a sequence of detailed drawings
+    - title: Volunteer
+      duration: 2019
+      company: IndigiGrow, NSW
+      description: Indigenous plants propagation and care
+  projects:
+    - name: Project Name 1
+      description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      contribution: Contributor.
+    - name: Project Name 2
+      description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      contribution: Creator and maintainer.
+  languages:
+    - name: English
+      proficiency: Work proficiency
+    - name: Mandarin Chinese
+      proficiency: Native
+    - name: Korean
+      proficiency: Fluent
+      
 subtitle: ''
 description: ''
 keywords:
@@ -97,11 +159,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-crisp-minimal-resume
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repo: git@github.com:weiychen9/weiychen9.github.io.git
-  branch: live
+  branch: manual-deploy
