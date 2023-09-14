@@ -15,10 +15,10 @@ resume:
     - icon: fa-phone-square
       text: your-phone-num
     - icon: fa-globe
-      text: your-website.com
+      text: weiychen9.github.io
       link: https://weiychen9.github.io/
     - icon: fa-github
-      text: your-github
+      text: weiychen9
       link: https://github.com/weiychen9
   education:
     - university: The university of Melbourne
